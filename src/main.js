@@ -70,7 +70,7 @@ const sampleTable = initTable(
   {
     tableTemplate: "table",
     rowTemplate: "row",
-    before: ["search", "header", "filter"],
+    before: ["filter", "header", "search"],
     after: ["pagination"],
   },
   render
